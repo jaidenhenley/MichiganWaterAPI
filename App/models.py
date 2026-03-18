@@ -2,6 +2,7 @@ from pydantic import BaseModel, Field
 from datetime import datetime
 from enum import Enum
 from typing import Optional
+from typing import List
 
 
 class Status(str, Enum):
@@ -22,19 +23,17 @@ class Beach(BaseModel):
     name: str
     county: str
     status: Status
-    ecoli_value: float
     latitude: float
     longitude: float
     lake: str
     buoy_station: str
-    hazard_score: int
-
+    nws_station_id: Optional[str] = None
 
 class WaterConditions(BaseModel):
     source: str = "NDBC"
     station_id: Optional[str] = None
     water_temp_c: Optional[float] = None
-    wave_height_ft: Optional[float] = None
+    wave_height_m: Optional[float] = None
     wave_period_sec: Optional[float] = None
     wind_speed_mph: Optional[float] = None
     wind_direction: Optional[str] = None
@@ -47,13 +46,15 @@ class WeatherAlert(BaseModel):
     description: Optional[str] = None
     expires: Optional[datetime] = None
 
+class WeatherConditions(BaseModel):
+    station_id: str
+    text_description: str
+    temperature_c: float
+    humidity: float
+    wind_speed_km: float
+    wind_chill_c: int
 
-class HazardReport(BaseModel):
-    beach_id: int
-    beach_name: str
-    hazard_score: int
-    hazard_level: HazardLevel
-    water_conditions: Optional[WaterConditions] = None
-    weather_alerts: list[WeatherAlert] = Field(default_factory=list)
-    ecoli_value: float
-    summary: str
+class BeachModelResponse(BaseModel):
+    forecast: List[WeatherConditions]
+    buoy_data: List[WaterConditions]
+    alerts: List[WeatherAlert]

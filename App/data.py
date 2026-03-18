@@ -16,10 +16,9 @@ sample_beaches = [
         "latitude": 42.3416,
         "longitude": -82.9625,
         "lake": "Lake Erie",
-        "buoy_station": "45005",
+        "buoy_station": "45147",
         "status": "Safe",
-        "ecoli_value": 120,
-        "hazard_score": 5,
+        "nws_station_id": "KDET"
     },
     {
         "id": 2,
@@ -28,10 +27,9 @@ sample_beaches = [
         "latitude": 43.0564,
         "longitude": -86.2545,
         "lake": "Lake Michigan",
-        "buoy_station": "45007",
+        "buoy_station": "45024",
         "status": "Advisory",
-        "ecoli_value": 310,
-        "hazard_score": 5,
+        "nws_station_id": "KMKG"
     },
     {
         "id": 3,
@@ -40,10 +38,9 @@ sample_beaches = [
         "latitude": 43.6753,
         "longitude": -86.5214,
         "lake": "Lake Michigan",
-        "buoy_station": "45007",
+        "buoy_station": "45024",
         "status": "Safe",
-        "ecoli_value": 95,
-        "hazard_score": 5,
+        "nws_station_id": "KMKG"
     },
     {
         "id": 4,
@@ -54,8 +51,7 @@ sample_beaches = [
         "lake": "Lake Michigan",
         "buoy_station": "45002",
         "status": "Safe",
-        "ecoli_value": 60,
-        "hazard_score": 5,
+        "nws_station_id": "KTVC"
         
     },
     {
@@ -67,7 +63,6 @@ sample_beaches = [
         "lake": "Lake Huron",
         "buoy_station": "45008",
         "status": "Safe",
-        "ecoli_value": 85,
-        "hazard_score": 5,
+        "nws_station_id": "KOSC"
     },
 ]
