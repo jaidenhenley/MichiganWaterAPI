@@ -16,7 +16,7 @@ sample_beaches = [
         "latitude": 42.3416,
         "longitude": -82.9625,
         "lake": "Lake Erie",
-        "buoy_station": "45147",
+        "buoy_station": "45214",
         "status": "Safe",
         "nws_station_id": "KDET"
     },
