@@ -14,24 +14,24 @@ from app.services.nws import fetch_weather_conditions
 app = FastAPI()
 
 @app.get("/alerts")
-async def get_alerts(lat: float, lon: float):
+async def get_alerts(lat: float, lon: float) -> dict:
     return await fetch_nws_alerts(lat, lon)
 
 @app.get("/forecast/{station_id}")
-async def get_weather_conditions(station_id: str):
+async def get_weather_conditions(station_id: str) -> dict:
     return await fetch_weather_conditions(station_id)
 
 @app.get("/ndbc/{station_id}")
-async def get_ndbc_conditions(station_id: str):
+async def get_ndbc_conditions(station_id: str) -> dict:
     return await fetch_ndbc_conditions(station_id)
 
 @app.get("/")
-def root():
+def root() -> dict:
     return {"message": "Michigan Water API is running"}
 
 
 @app.get("/health")
-def health():
+def health() -> dict:
     return {"status": "ok"}
 
 
@@ -40,7 +40,7 @@ def get_beaches(
     county: Optional[str] = Query(None, description="Filter by county name"),
     lake: Optional[str] = Query(None, description="Filter by lake name"),
     status: Optional[str] = Query(None, description="Filter by status: safe, advisory, closed")
-): 
+) -> list[Beach]: 
     results = sample_beaches
     if county:
         results = [b for b in results if b["county"].lower() == county.lower()]
@@ -52,7 +52,7 @@ def get_beaches(
 
 
 @app.get("/beaches/{beach_id}/details")
-async def get_beach(beach_id: int):
+async def get_beach(beach_id: int) -> dict:
     beach = next((b for b in sample_beaches if b["id"] == beach_id), None)
     if not beach: 
         raise HTTPException(status_code=404, detail="Beach not found")
