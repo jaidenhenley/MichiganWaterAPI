@@ -58,3 +58,18 @@ class BeachModelResponse(BaseModel):
     forecast: List[WeatherConditions]
     buoy_data: List[WaterConditions]
     alerts: List[WeatherAlert]
+
+class Forecast(BaseModel): 
+    number: int
+    name: str
+    startTime: datetime
+    endTime: datetime
+    isDaytime: bool
+    temp: int
+    tempUnit: str
+    probOfPrecip: float
+    windSpeed: int
+    windDirection: str
+    icon: str
+    shortForecast: str
+    detailForecast: str

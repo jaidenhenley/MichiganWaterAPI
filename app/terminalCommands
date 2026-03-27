@@ -1,2 +1,2 @@
 lsof -ti :8000 | xargs kill -9
-uvicorn app.main:app --reload
+./.venv/bin/python -m uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
