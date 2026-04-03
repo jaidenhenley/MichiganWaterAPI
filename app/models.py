@@ -41,35 +41,6 @@ class WaterConditions(BaseModel):
     timestamp: Optional[datetime] = None
 
 
-class WeatherAlert(BaseModel):
-    headline: str
-    severity: Optional[str] = None
-    description: Optional[str] = None
-    expires: Optional[datetime] = None
-
-class WeatherConditions(BaseModel):
-    station_id: str
-    text_description: str
-    temperature_c: Optional[float] = None
-    humidity: Optional[float] = None
-    wind_speed_km: Optional[float] = None
-    wind_chill_c: Optional[float] = None
-
-class Forecast(BaseModel):
-    number: int
-    name: str
-    startTime: datetime
-    endTime: datetime
-    isDaytime: bool
-    temp: int
-    tempUnit: str
-    probOfPrecip: float
-    windSpeed: str
-    windDirection: str
-    icon: str
-    shortForecast: str
-    detailForecast: str
-
 class Traffic(BaseModel):
     currentSpeed: int
     freeFlowSpeed: int
@@ -94,9 +65,6 @@ class NPSVisitation(BaseModel):
 
 
 class BeachModelResponse(BaseModel):
-    weather: Optional[WeatherConditions] = None
-    forecast: List[Forecast] = []
     buoy_data: Optional[WaterConditions] = None
-    alerts: List[WeatherAlert] = []
     traffic: List[Traffic] = []
     holiday: List[Holiday] = []
