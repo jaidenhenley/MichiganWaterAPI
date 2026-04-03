@@ -53,7 +53,7 @@ async def get_beach(beach_id: int) -> BeachModelResponse:
         raise HTTPException(status_code=404, detail="Beach not found")
 
     buoy_result, traffic_result, holiday_result = await asyncio.gather(
-        fetch_ndbc_conditions(beach["buoy_station"]),
+        fetch_ndbc_conditions(beach["buoyStation"]),
         fetch_traffic_conditions(lat=beach["latitude"], lon=beach["longitude"]),
         fetch_holidays(countryCode=beach["countryCode"], year=beach["year"]),
         return_exceptions=True,
