@@ -64,6 +64,7 @@ class NPSVisitation(BaseModel):
 
 
 class BeachModelResponse(BaseModel):
+    beach: str
     buoyData: Optional[WaterConditions] = None
     traffic: List[Traffic] = []
     holiday: List[Holiday] = []
