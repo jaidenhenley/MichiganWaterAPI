@@ -183,4 +183,88 @@ sample_beaches = [
         "countryCode": "US",
         "year": date.today().year
     },
+    {
+        "id": 15,
+        "name": "Muskegon State Park",
+        "county": "Muskegon",
+        "latitude": 43.2485,
+        "longitude": -86.3339,
+        "lake": "Lake Michigan",
+        "buoyStation": "45024",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 16,
+        "name": "Saugatuck Dunes State Park",
+        "county": "Allegan",
+        "latitude": 42.6968,
+        "longitude": -86.1903,
+        "lake": "Lake Michigan",
+        "buoyStation": "45024",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 17,
+        "name": "South Haven South Beach",
+        "county": "Van Buren",
+        "latitude": 42.4031,
+        "longitude": -86.2736,
+        "lake": "Lake Michigan",
+        "buoyStation": "45024",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 18,
+        "name": "Port Crescent State Park",
+        "county": "Huron",
+        "latitude": 44.0103,
+        "longitude": -83.0508,
+        "lake": "Lake Huron",
+        "buoyStation": "45008",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 19,
+        "name": "Albert E. Sleeper State Park",
+        "county": "Huron",
+        "latitude": 43.9726,
+        "longitude": -83.2055,
+        "lake": "Lake Huron",
+        "buoyStation": "45008",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 20,
+        "name": "McLain State Park",
+        "county": "Houghton",
+        "latitude": 47.2371,
+        "longitude": -88.6088,
+        "lake": "Lake Superior",
+        "buoyStation": "45006",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 21,
+        "name": "Porcupine Mountains Wilderness State Park",
+        "county": "Ontonagon",
+        "latitude": 46.7811,
+        "longitude": -89.6807,
+        "lake": "Lake Superior",
+        "buoyStation": "45006",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
 ]
