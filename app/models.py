@@ -48,11 +48,6 @@ class Traffic(BaseModel):
     confidence: float
     roadClosures: bool
     
-class Holiday(BaseModel):
-    date: date
-    localName: str
-    name: str
-
     
 class NPSVisitation(BaseModel):
     park_code: str
@@ -68,4 +63,4 @@ class BeachModelResponse(BaseModel):
     buoyData: Optional[WaterConditions] = None
     alerts: List = []
     traffic: List[Traffic] = []
-    holiday: List[Holiday] = []
+    holiday: bool = False

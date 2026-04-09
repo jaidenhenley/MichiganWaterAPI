@@ -5,7 +5,6 @@ from datetime import date
 
 from app.data import sample_beaches
 from app.models import Beach
-from app.models import Holiday
 from app.models import BeachModelResponse
 from app.models import NPSVisitation
 
@@ -49,7 +48,7 @@ async def get_beach(beach_id: int) -> BeachModelResponse:
     if not beach: 
         raise HTTPException(status_code=404, detail="Beach not found")
 
-    buoy_result, traffic_result, holiday_result = await asyncio.gather(
+    buoy_result, traffic_result = await asyncio.gather(
         fetch_ndbc_conditions(beach["buoyStation"]),
         fetch_traffic_conditions(lat=beach["latitude"], lon=beach["longitude"]),
         return_exceptions=True,
@@ -58,7 +57,7 @@ async def get_beach(beach_id: int) -> BeachModelResponse:
     # Type-check each result — exceptions become None
     buoy = buoy_result if not isinstance(buoy_result, Exception) else None
     traffic = traffic_result if not isinstance(traffic_result, Exception) else None
-    
+
     return BeachModelResponse(
         beach=beach["name"],
         alerts=[],
