@@ -23,7 +23,12 @@ beaches = [
         "buoyStation": "45214",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "city_beach",
+        "isSwimmable": True,
+        "bodyOfWater": "Detroit River",
+        "hasRestrooms": True,
+        "hasCamping": False
     },
     {
         "id": 2,
@@ -35,7 +40,12 @@ beaches = [
         "buoyStation": "45024",
         "status": "Advisory",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "state_park",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Michigan",
+        "hasRestrooms": True,
+        "hasCamping": True
     },
     {
         "id": 3,
@@ -47,7 +57,12 @@ beaches = [
         "buoyStation": "45024",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "state_park",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Michigan",
+        "hasRestrooms": True,
+        "hasCamping": True
     },
     {
         "id": 4,
@@ -59,7 +74,12 @@ beaches = [
         "buoyStation": "45002",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "national_park",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Michigan",
+        "hasRestrooms": True,
+        "hasCamping": True
     },
     {
         "id": 5,
@@ -71,7 +91,12 @@ beaches = [
         "buoyStation": "45008",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "state_park",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Huron",
+        "hasRestrooms": True,
+        "hasCamping": True
     },
     {
         "id": 6,
@@ -83,7 +108,12 @@ beaches = [
         "buoyStation": "45024",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "state_park",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Michigan",
+        "hasRestrooms": True,
+        "hasCamping": True
     },
     {
         "id": 7,
@@ -95,7 +125,12 @@ beaches = [
         "buoyStation": "45024",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "state_park",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Michigan",
+        "hasRestrooms": True,
+        "hasCamping": True
     },
     {
         "id": 8,
@@ -107,7 +142,12 @@ beaches = [
         "buoyStation": "45024",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "state_park",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Michigan",
+        "hasRestrooms": True,
+        "hasCamping": True
     },
     {
         "id": 9,
@@ -119,7 +159,12 @@ beaches = [
         "buoyStation": "45007",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "state_park",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Michigan",
+        "hasRestrooms": True,
+        "hasCamping": True
     },
     {
         "id": 10,
@@ -131,7 +176,12 @@ beaches = [
         "buoyStation": "45002",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "state_park",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Michigan",
+        "hasRestrooms": True,
+        "hasCamping": True
     },
     {
         "id": 11,
@@ -143,7 +193,12 @@ beaches = [
         "buoyStation": "45006",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "national_park",
+        "isSwimmable": False,
+        "bodyOfWater": "Lake Superior",
+        "hasRestrooms": True,
+        "hasCamping": True
     },
     {
         "id": 12,
@@ -155,7 +210,12 @@ beaches = [
         "buoyStation": "45006",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "city_beach",
+        "isSwimmable": False,
+        "bodyOfWater": "Lake Superior",
+        "hasRestrooms": True,
+        "hasCamping": False
     },
     {
         "id": 13,
@@ -167,7 +227,12 @@ beaches = [
         "buoyStation": "45008",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "state_park",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Huron",
+        "hasRestrooms": True,
+        "hasCamping": True
     },
     {
         "id": 14,
@@ -179,7 +244,12 @@ beaches = [
         "buoyStation": "45214",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "state_park",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Erie",
+        "hasRestrooms": True,
+        "hasCamping": True
     },
     {
         "id": 15,
@@ -191,7 +261,12 @@ beaches = [
         "buoyStation": "45024",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "state_park",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Michigan",
+        "hasRestrooms": True,
+        "hasCamping": True
     },
     {
         "id": 16,
@@ -203,7 +278,12 @@ beaches = [
         "buoyStation": "45024",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "state_park",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Michigan",
+        "hasRestrooms": True,
+        "hasCamping": False
     },
     {
         "id": 17,
@@ -215,7 +295,12 @@ beaches = [
         "buoyStation": "45024",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "city_beach",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Michigan",
+        "hasRestrooms": True,
+        "hasCamping": False
     },
     {
         "id": 18,
@@ -227,7 +312,12 @@ beaches = [
         "buoyStation": "45008",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "state_park",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Huron",
+        "hasRestrooms": True,
+        "hasCamping": True
     },
     {
         "id": 19,
@@ -239,7 +329,12 @@ beaches = [
         "buoyStation": "45008",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "state_park",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Huron",
+        "hasRestrooms": True,
+        "hasCamping": True
     },
     {
         "id": 20,
@@ -251,7 +346,12 @@ beaches = [
         "buoyStation": "45006",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "state_park",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Superior",
+        "hasRestrooms": True,
+        "hasCamping": True
     },
     {
         "id": 21,
@@ -263,7 +363,12 @@ beaches = [
         "buoyStation": "45006",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "state_park",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Superior",
+        "hasRestrooms": True,
+        "hasCamping": True
     },
     {
         "id": 22,
@@ -275,7 +380,12 @@ beaches = [
         "buoyStation": "45024",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "state_park",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Michigan",
+        "hasRestrooms": True,
+        "hasCamping": True
     },
     {
         "id": 23,
@@ -287,7 +397,12 @@ beaches = [
         "buoyStation": "45024",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "wilderness_area",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Michigan",
+        "hasRestrooms": False,
+        "hasCamping": True
     },
     {
         "id": 24,
@@ -299,7 +414,12 @@ beaches = [
         "buoyStation": "HRBM4",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "city_beach",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Huron",
+        "hasRestrooms": True,
+        "hasCamping": False
     },
     {
         "id": 25,
@@ -311,7 +431,12 @@ beaches = [
         "buoyStation": "45006",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "state_park",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Superior",
+        "hasRestrooms": True,
+        "hasCamping": True
     },
     {
         "id": 26,
@@ -323,7 +448,12 @@ beaches = [
         "buoyStation": "45006",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "city_beach",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Superior",
+        "hasRestrooms": True,
+        "hasCamping": False
     },
     {
         "id": 27,
@@ -335,7 +465,12 @@ beaches = [
         "buoyStation": "45024",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "city_beach",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Michigan",
+        "hasRestrooms": True,
+        "hasCamping": False
     },
     {
         "id": 28,
@@ -347,7 +482,12 @@ beaches = [
         "buoyStation": "45024",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "county_park",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Michigan",
+        "hasRestrooms": True,
+        "hasCamping": False
     },
     {
         "id": 29,
@@ -359,7 +499,12 @@ beaches = [
         "buoyStation": "45024",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "city_beach",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Michigan",
+        "hasRestrooms": True,
+        "hasCamping": False
     },
     {
         "id": 30,
@@ -371,7 +516,12 @@ beaches = [
         "buoyStation": "45024",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "county_park",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Michigan",
+        "hasRestrooms": True,
+        "hasCamping": False
     },
     {
         "id": 31,
@@ -383,7 +533,12 @@ beaches = [
         "buoyStation": "45024",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "county_park",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Michigan",
+        "hasRestrooms": True,
+        "hasCamping": False
     },
     {
         "id": 32,
@@ -395,7 +550,12 @@ beaches = [
         "buoyStation": "45008",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "county_park",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Huron",
+        "hasRestrooms": True,
+        "hasCamping": True
     },
     {
         "id": 33,
@@ -407,7 +567,12 @@ beaches = [
         "buoyStation": "45008",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "city_beach",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Huron",
+        "hasRestrooms": True,
+        "hasCamping": False
     },
     {
         "id": 34,
@@ -419,7 +584,12 @@ beaches = [
         "buoyStation": "45008",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "city_beach",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Huron",
+        "hasRestrooms": True,
+        "hasCamping": False
     },
     {
         "id": 35,
@@ -431,7 +601,12 @@ beaches = [
         "buoyStation": "45006",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "city_beach",
+        "isSwimmable": False,
+        "bodyOfWater": "Lake Superior",
+        "hasRestrooms": False,
+        "hasCamping": False
     },
     {
         "id": 36,
@@ -443,7 +618,12 @@ beaches = [
         "buoyStation": "45006",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "city_beach",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Superior",
+        "hasRestrooms": True,
+        "hasCamping": False
     },
     {
         "id": 37,
@@ -455,7 +635,12 @@ beaches = [
         "buoyStation": "45006",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "wilderness_area",
+        "isSwimmable": False,
+        "bodyOfWater": "Lake Superior",
+        "hasRestrooms": True,
+        "hasCamping": False
     },
     {
         "id": 38,
@@ -467,7 +652,12 @@ beaches = [
         "buoyStation": "45006",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "city_beach",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Superior",
+        "hasRestrooms": True,
+        "hasCamping": False
     },
     {
         "id": 39,
@@ -479,7 +669,12 @@ beaches = [
         "buoyStation": "45008",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "state_park",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Huron",
+        "hasRestrooms": True,
+        "hasCamping": True
     },
     {
         "id": 40,
@@ -491,7 +686,12 @@ beaches = [
         "buoyStation": "45008",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "state_park",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Huron",
+        "hasRestrooms": True,
+        "hasCamping": True
     },
     {
         "id": 41,
@@ -503,7 +703,12 @@ beaches = [
         "buoyStation": "45008",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "state_park",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Huron",
+        "hasRestrooms": True,
+        "hasCamping": True
     },
     {
         "id": 42,
@@ -515,7 +720,12 @@ beaches = [
         "buoyStation": "45008",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "state_park",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Huron",
+        "hasRestrooms": True,
+        "hasCamping": True
     },
     {
         "id": 43,
@@ -527,7 +737,12 @@ beaches = [
         "buoyStation": "45002",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "state_park",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Michigan",
+        "hasRestrooms": True,
+        "hasCamping": True
     },
     {
         "id": 44,
@@ -539,7 +754,12 @@ beaches = [
         "buoyStation": "45002",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "state_park",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Michigan",
+        "hasRestrooms": True,
+        "hasCamping": True
     },
     {
         "id": 45,
@@ -551,7 +771,12 @@ beaches = [
         "buoyStation": "45024",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "national_park",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Michigan",
+        "hasRestrooms": True,
+        "hasCamping": False
     },
     {
         "id": 46,
@@ -563,7 +788,12 @@ beaches = [
         "buoyStation": "45002",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "city_beach",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Michigan",
+        "hasRestrooms": True,
+        "hasCamping": False
     },
     {
         "id": 47,
@@ -575,7 +805,12 @@ beaches = [
         "buoyStation": "45024",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "city_beach",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Michigan",
+        "hasRestrooms": True,
+        "hasCamping": False
     },
     {
         "id": 48,
@@ -587,7 +822,12 @@ beaches = [
         "buoyStation": "45024",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "city_beach",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Michigan",
+        "hasRestrooms": True,
+        "hasCamping": False
     },
     {
         "id": 49,
@@ -599,7 +839,12 @@ beaches = [
         "buoyStation": "45024",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "city_beach",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Michigan",
+        "hasRestrooms": True,
+        "hasCamping": False
     },
     {
         "id": 50,
@@ -611,7 +856,12 @@ beaches = [
         "buoyStation": "45024",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "city_beach",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Michigan",
+        "hasRestrooms": True,
+        "hasCamping": False
     },
     {
         "id": 51,
@@ -623,7 +873,12 @@ beaches = [
         "buoyStation": "45024",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "city_beach",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Michigan",
+        "hasRestrooms": True,
+        "hasCamping": False
     },
     {
         "id": 52,
@@ -635,7 +890,12 @@ beaches = [
         "buoyStation": "45007",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "city_beach",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Michigan",
+        "hasRestrooms": True,
+        "hasCamping": False
     },
     {
         "id": 53,
@@ -647,7 +907,12 @@ beaches = [
         "buoyStation": "45007",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "city_beach",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Michigan",
+        "hasRestrooms": True,
+        "hasCamping": False
     },
     {
         "id": 54,
@@ -659,6 +924,11 @@ beaches = [
         "buoyStation": "45214",
         "status": "Safe",
         "countryCode": "US",
-        "year": date.today().year
+        "year": date.today().year,
+        "parkType": "metropark",
+        "isSwimmable": True,
+        "bodyOfWater": "Lake Erie",
+        "hasRestrooms": True,
+        "hasCamping": False
     },
 ]
