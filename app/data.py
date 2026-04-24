@@ -10,6 +10,7 @@ from datetime import date
 # 45006 = West Lake Superior (seasonal — offline in winter)
 # 45024 = East Lake Michigan (near Grand Haven)
 # 45214 = Lake Erie (near Detroit)
+# HRBM4 = Harbor Beach, Lake Huron (reports water temp)
 
 beaches = [
     {
@@ -18,12 +19,11 @@ beaches = [
         "county": "Wayne",
         "latitude": 42.3416,
         "longitude": -82.9625,
-        "lake": "Lake Erie",
+        "lake": "Detroit River",
         "buoyStation": "45214",
         "status": "Safe",
         "countryCode": "US",
         "year": date.today().year
-
     },
     {
         "id": 2,
@@ -48,7 +48,6 @@ beaches = [
         "status": "Safe",
         "countryCode": "US",
         "year": date.today().year
-        
     },
     {
         "id": 4,
@@ -61,7 +60,6 @@ beaches = [
         "status": "Safe",
         "countryCode": "US",
         "year": date.today().year
-        
     },
     {
         "id": 5,
@@ -263,6 +261,402 @@ beaches = [
         "longitude": -89.6807,
         "lake": "Lake Superior",
         "buoyStation": "45006",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 22,
+        "name": "Traverse City State Park",
+        "county": "Grand Traverse",
+        "latitude": 44.7354,
+        "longitude": -85.5771,
+        "lake": "Lake Michigan",
+        "buoyStation": "45024",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 23,
+        "name": "Nordhouse Dunes",
+        "county": "Mason",
+        "latitude": 43.9500,
+        "longitude": -86.4800,
+        "lake": "Lake Michigan",
+        "buoyStation": "45024",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 24,
+        "name": "Harbor Beach",
+        "county": "Huron",
+        "latitude": 43.8439,
+        "longitude": -82.6513,
+        "lake": "Lake Huron",
+        "buoyStation": "HRBM4",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 25,
+        "name": "Fort Wilkins State Park",
+        "county": "Keweenaw",
+        "latitude": 47.4658,
+        "longitude": -87.8823,
+        "lake": "Lake Superior",
+        "buoyStation": "45006",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 26,
+        "name": "Grand Marais Beach",
+        "county": "Alger",
+        "latitude": 46.6741,
+        "longitude": -85.9766,
+        "lake": "Lake Superior",
+        "buoyStation": "45006",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 27,
+        "name": "Oval Beach",
+        "county": "Allegan",
+        "latitude": 42.6543,
+        "longitude": -86.2196,
+        "lake": "Lake Michigan",
+        "buoyStation": "45024",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 28,
+        "name": "Tunnel Park",
+        "county": "Ottawa",
+        "latitude": 42.7654,
+        "longitude": -86.2198,
+        "lake": "Lake Michigan",
+        "buoyStation": "45024",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 29,
+        "name": "Pere Marquette Beach",
+        "county": "Muskegon",
+        "latitude": 43.2317,
+        "longitude": -86.3539,
+        "lake": "Lake Michigan",
+        "buoyStation": "45024",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 30,
+        "name": "North Beach Park",
+        "county": "Ottawa",
+        "latitude": 43.0731,
+        "longitude": -86.2567,
+        "lake": "Lake Michigan",
+        "buoyStation": "45024",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 31,
+        "name": "Kirk Park",
+        "county": "Ottawa",
+        "latitude": 42.9920,
+        "longitude": -86.2534,
+        "lake": "Lake Michigan",
+        "buoyStation": "45024",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 32,
+        "name": "Caseville County Park",
+        "county": "Huron",
+        "latitude": 43.9414,
+        "longitude": -83.2716,
+        "lake": "Lake Huron",
+        "buoyStation": "45008",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 33,
+        "name": "Lexington Beach",
+        "county": "Sanilac",
+        "latitude": 43.2654,
+        "longitude": -82.5321,
+        "lake": "Lake Huron",
+        "buoyStation": "45008",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 34,
+        "name": "Oscoda Beach",
+        "county": "Iosco",
+        "latitude": 44.4317,
+        "longitude": -83.3354,
+        "lake": "Lake Huron",
+        "buoyStation": "45008",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 35,
+        "name": "Agate Beach",
+        "county": "Keweenaw",
+        "latitude": 47.4679,
+        "longitude": -87.8821,
+        "lake": "Lake Superior",
+        "buoyStation": "45006",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 36,
+        "name": "Ontonagon Beach",
+        "county": "Ontonagon",
+        "latitude": 46.8731,
+        "longitude": -89.3217,
+        "lake": "Lake Superior",
+        "buoyStation": "45006",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 37,
+        "name": "Whitefish Point Beach",
+        "county": "Chippewa",
+        "latitude": 46.7698,
+        "longitude": -84.9574,
+        "lake": "Lake Superior",
+        "buoyStation": "45006",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 38,
+        "name": "Munising Beach",
+        "county": "Alger",
+        "latitude": 46.4121,
+        "longitude": -86.6554,
+        "lake": "Lake Superior",
+        "buoyStation": "45006",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 39,
+        "name": "Bay City State Park",
+        "county": "Bay",
+        "latitude": 43.6548,
+        "longitude": -83.8967,
+        "lake": "Lake Huron",
+        "buoyStation": "45008",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 40,
+        "name": "Lakeport State Park",
+        "county": "St. Clair",
+        "latitude": 43.1432,
+        "longitude": -82.4987,
+        "lake": "Lake Huron",
+        "buoyStation": "45008",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 41,
+        "name": "Cheboygan State Park",
+        "county": "Cheboygan",
+        "latitude": 45.6543,
+        "longitude": -84.4732,
+        "lake": "Lake Huron",
+        "buoyStation": "45008",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 42,
+        "name": "Hoeft State Park",
+        "county": "Presque Isle",
+        "latitude": 45.4321,
+        "longitude": -83.9876,
+        "lake": "Lake Huron",
+        "buoyStation": "45008",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 43,
+        "name": "Fisherman's Island State Park",
+        "county": "Charlevoix",
+        "latitude": 45.2876,
+        "longitude": -85.2543,
+        "lake": "Lake Michigan",
+        "buoyStation": "45002",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 44,
+        "name": "Young State Park",
+        "county": "Charlevoix",
+        "latitude": 45.1987,
+        "longitude": -85.2198,
+        "lake": "Lake Michigan",
+        "buoyStation": "45002",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 45,
+        "name": "Empire Beach",
+        "county": "Leelanau",
+        "latitude": 44.8123,
+        "longitude": -86.0587,
+        "lake": "Lake Michigan",
+        "buoyStation": "45024",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 46,
+        "name": "Leland Beach",
+        "county": "Leelanau",
+        "latitude": 45.0234,
+        "longitude": -85.7654,
+        "lake": "Lake Michigan",
+        "buoyStation": "45002",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 47,
+        "name": "Frankfort Beach",
+        "county": "Benzie",
+        "latitude": 44.6321,
+        "longitude": -86.2354,
+        "lake": "Lake Michigan",
+        "buoyStation": "45024",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 48,
+        "name": "Arcadia Beach",
+        "county": "Manistee",
+        "latitude": 44.5123,
+        "longitude": -86.2198,
+        "lake": "Lake Michigan",
+        "buoyStation": "45024",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 49,
+        "name": "Manistee North Beach",
+        "county": "Manistee",
+        "latitude": 44.2543,
+        "longitude": -86.3321,
+        "lake": "Lake Michigan",
+        "buoyStation": "45024",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 50,
+        "name": "Pentwater Beach",
+        "county": "Oceana",
+        "latitude": 43.7832,
+        "longitude": -86.4321,
+        "lake": "Lake Michigan",
+        "buoyStation": "45024",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 51,
+        "name": "White Lake Beach",
+        "county": "Muskegon",
+        "latitude": 43.5987,
+        "longitude": -86.3987,
+        "lake": "Lake Michigan",
+        "buoyStation": "45024",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 52,
+        "name": "New Buffalo Beach",
+        "county": "Berrien",
+        "latitude": 41.7965,
+        "longitude": -86.7432,
+        "lake": "Lake Michigan",
+        "buoyStation": "45007",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 53,
+        "name": "St. Joseph Beach",
+        "county": "Berrien",
+        "latitude": 42.1098,
+        "longitude": -86.4876,
+        "lake": "Lake Michigan",
+        "buoyStation": "45007",
+        "status": "Safe",
+        "countryCode": "US",
+        "year": date.today().year
+    },
+    {
+        "id": 54,
+        "name": "Lake Erie Metropark Beach",
+        "county": "Wayne",
+        "latitude": 42.0876,
+        "longitude": -83.1987,
+        "lake": "Lake Erie",
+        "buoyStation": "45214",
         "status": "Safe",
         "countryCode": "US",
         "year": date.today().year
