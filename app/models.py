@@ -57,6 +57,12 @@ class NPSVisitation(BaseModel):
     recreation_visitors: int
     crowd_weight: float  # 0.0–1.0, normalized against peak month
 
+class WaterQuality(BaseModel):
+    lastReading: str
+    value: float
+    unit: str
+    status: str
+    source: str
 
 class BeachModelResponse(BaseModel):
     beach: str
@@ -64,3 +70,4 @@ class BeachModelResponse(BaseModel):
     alerts: List = []
     traffic: List[Traffic] = []
     holiday: bool = False
+    waterQuality: Optional[WaterQuality] = None

@@ -16,7 +16,7 @@ from app.services.ndbc import fetch_ndbc_conditions
 
 
 from app.services.tomtom import fetch_traffic_conditions, parse_traffic
-
+from app.services.water_quality import get_water_quality_safe
 from app.services.holidays import is_holiday
 from app.services.nps import fetch_nps_visitation, parse_nps_visitation, MICHIGAN_BEACH_PARKS
 
@@ -58,10 +58,13 @@ async def get_beach(beach_id: int) -> BeachModelResponse:
     buoy = buoy_result if not isinstance(buoy_result, Exception) else None
     traffic = traffic_result if not isinstance(traffic_result, Exception) else None
 
+    water_quality = get_water_quality_safe(beach_id)
+
     return BeachModelResponse(
         beach=beach["name"],
         alerts=[],
-        buoyData=buoy if not isinstance(buoy, Exception) else None,
+        buoyData=buoy,
         traffic=parse_traffic(traffic) if traffic else [],
-        holiday=is_holiday(date.today())
+        holiday=is_holiday(date.today()),
+        waterQuality=water_quality
     )

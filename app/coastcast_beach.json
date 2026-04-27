@@ -1,0 +1,326 @@
+[
+  {
+    "lat" : 42.3416,
+    "id" : 1,
+    "lon" : -82.962500000000006,
+    "name" : "Belle Isle Beach"
+  },
+  {
+    "lon" : -86.254499999999993,
+    "name" : "Grand Haven State Park",
+    "lat" : 43.056399999999996,
+    "id" : 2
+  },
+  {
+    "name" : "Silver Lake Beach",
+    "lat" : 43.6753,
+    "lon" : -86.5214,
+    "id" : 3
+  },
+  {
+    "lon" : -86.058999999999997,
+    "id" : 4,
+    "lat" : 44.877899999999997,
+    "name" : "Sleeping Bear Dunes"
+  },
+  {
+    "lat" : 44.257199999999997,
+    "name" : "Tawas Point State Park",
+    "lon" : -83.446700000000007,
+    "id" : 5
+  },
+  {
+    "lat" : 42.7789,
+    "lon" : -86.204800000000006,
+    "id" : 6,
+    "name" : "Holland State Park"
+  },
+  {
+    "lat" : 44.0349,
+    "lon" : -86.501800000000003,
+    "name" : "Ludington State Park",
+    "id" : 7
+  },
+  {
+    "lon" : -86.2654,
+    "lat" : 43.132899999999999,
+    "id" : 8,
+    "name" : "P.J. Hoffmaster State Park"
+  },
+  {
+    "lat" : 41.915300000000002,
+    "id" : 9,
+    "lon" : -86.593400000000003,
+    "name" : "Warren Dunes State Park"
+  },
+  {
+    "lat" : 45.406799999999997,
+    "lon" : -84.908600000000007,
+    "name" : "Petoskey State Park",
+    "id" : 10
+  },
+  {
+    "lon" : -86.316299999999998,
+    "lat" : 46.564300000000003,
+    "id" : 11,
+    "name" : "Pictured Rocks National Lakeshore"
+  },
+  {
+    "id" : 12,
+    "lat" : 46.588000000000001,
+    "name" : "Presque Isle Park",
+    "lon" : -87.381799999999998
+  },
+  {
+    "lon" : -83.297600000000003,
+    "id" : 13,
+    "lat" : 44.647500000000001,
+    "name" : "Harrisville State Park"
+  },
+  {
+    "lat" : 41.920000000000002,
+    "name" : "Sterling State Park",
+    "id" : 14,
+    "lon" : -83.341499999999996
+  },
+  {
+    "id" : 15,
+    "lat" : 43.2485,
+    "name" : "Muskegon State Park",
+    "lon" : -86.3339
+  },
+  {
+    "lat" : 42.696800000000003,
+    "id" : 16,
+    "name" : "Saugatuck Dunes State Park",
+    "lon" : -86.190299999999993
+  },
+  {
+    "lat" : 42.403100000000002,
+    "lon" : -86.273600000000002,
+    "id" : 17,
+    "name" : "South Haven South Beach"
+  },
+  {
+    "id" : 18,
+    "lon" : -83.050799999999995,
+    "name" : "Port Crescent State Park",
+    "lat" : 44.010300000000001
+  },
+  {
+    "lat" : 43.9726,
+    "name" : "Albert E. Sleeper State Park",
+    "lon" : -83.205500000000001,
+    "id" : 19
+  },
+  {
+    "id" : 20,
+    "lat" : 47.237099999999998,
+    "lon" : -88.608800000000002,
+    "name" : "McLain State Park"
+  },
+  {
+    "name" : "Porcupine Mountains",
+    "lon" : -89.680700000000002,
+    "lat" : 46.781100000000002,
+    "id" : 21
+  },
+  {
+    "lat" : 44.735399999999998,
+    "lon" : -85.577100000000002,
+    "name" : "Traverse City State Park",
+    "id" : 22
+  },
+  {
+    "name" : "Nordhouse Dunes",
+    "lon" : -86.480000000000004,
+    "lat" : 43.950000000000003,
+    "id" : 23
+  },
+  {
+    "lat" : 43.843899999999998,
+    "lon" : -82.651300000000006,
+    "id" : 24,
+    "name" : "Harbor Beach"
+  },
+  {
+    "lon" : -87.882300000000001,
+    "name" : "Fort Wilkins State Park",
+    "lat" : 47.465800000000002,
+    "id" : 25
+  },
+  {
+    "id" : 26,
+    "name" : "Grand Marais Beach",
+    "lat" : 46.674100000000003,
+    "lon" : -85.976600000000005
+  },
+  {
+    "id" : 27,
+    "lat" : 42.654299999999999,
+    "lon" : -86.2196,
+    "name" : "Oval Beach"
+  },
+  {
+    "id" : 28,
+    "lat" : 42.7654,
+    "lon" : -86.219800000000006,
+    "name" : "Tunnel Park"
+  },
+  {
+    "lat" : 43.231699999999996,
+    "id" : 29,
+    "name" : "Pere Marquette Beach",
+    "lon" : -86.353899999999996
+  },
+  {
+    "id" : 30,
+    "lat" : 43.073099999999997,
+    "name" : "North Beach Park",
+    "lon" : -86.256699999999995
+  },
+  {
+    "lon" : -86.253399999999999,
+    "id" : 31,
+    "name" : "Kirk Park",
+    "lat" : 42.991999999999997
+  },
+  {
+    "lat" : 43.941400000000002,
+    "id" : 32,
+    "lon" : -83.271600000000007,
+    "name" : "Caseville County Park"
+  },
+  {
+    "name" : "Lexington Beach",
+    "id" : 33,
+    "lat" : 43.2654,
+    "lon" : -82.5321
+  },
+  {
+    "lon" : -83.335400000000007,
+    "lat" : 44.431699999999999,
+    "name" : "Oscoda Beach",
+    "id" : 34
+  },
+  {
+    "name" : "Agate Beach",
+    "lat" : 47.4679,
+    "id" : 35,
+    "lon" : -87.882099999999994
+  },
+  {
+    "name" : "Ontonagon Beach",
+    "id" : 36,
+    "lat" : 46.873100000000001,
+    "lon" : -89.321700000000007
+  },
+  {
+    "lat" : 46.769799999999996,
+    "lon" : -84.957400000000007,
+    "id" : 37,
+    "name" : "Whitefish Point Beach"
+  },
+  {
+    "id" : 38,
+    "lon" : -86.6554,
+    "lat" : 46.412100000000002,
+    "name" : "Munising Beach"
+  },
+  {
+    "lon" : -83.896699999999996,
+    "lat" : 43.654800000000002,
+    "id" : 39,
+    "name" : "Bay City State Park"
+  },
+  {
+    "lat" : 43.1432,
+    "name" : "Lakeport State Park",
+    "lon" : -82.498699999999999,
+    "id" : 40
+  },
+  {
+    "lon" : -84.473200000000006,
+    "lat" : 45.654299999999999,
+    "id" : 41,
+    "name" : "Cheboygan State Park"
+  },
+  {
+    "name" : "Hoeft State Park",
+    "lon" : -83.9876,
+    "lat" : 45.432099999999998,
+    "id" : 42
+  },
+  {
+    "name" : "Fisherman's Island State Park",
+    "id" : 43,
+    "lat" : 45.287599999999998,
+    "lon" : -85.254300000000001
+  },
+  {
+    "id" : 44,
+    "name" : "Young State Park",
+    "lon" : -85.219800000000006,
+    "lat" : 45.198700000000002
+  },
+  {
+    "lat" : 44.8123,
+    "id" : 45,
+    "lon" : -86.058700000000002,
+    "name" : "Empire Beach"
+  },
+  {
+    "lat" : 45.023400000000002,
+    "name" : "Leland Beach",
+    "lon" : -85.7654,
+    "id" : 46
+  },
+  {
+    "id" : 47,
+    "name" : "Frankfort Beach",
+    "lon" : -86.235399999999998,
+    "lat" : 44.632100000000001
+  },
+  {
+    "lat" : 44.512300000000003,
+    "id" : 48,
+    "lon" : -86.219800000000006,
+    "name" : "Arcadia Beach"
+  },
+  {
+    "id" : 49,
+    "lon" : -86.332099999999997,
+    "name" : "Manistee North Beach",
+    "lat" : 44.254300000000001
+  },
+  {
+    "lon" : -86.432100000000005,
+    "id" : 50,
+    "name" : "Pentwater Beach",
+    "lat" : 43.783200000000001
+  },
+  {
+    "id" : 51,
+    "lon" : -86.398700000000005,
+    "name" : "White Lake Beach",
+    "lat" : 43.598700000000001
+  },
+  {
+    "lat" : 41.796500000000002,
+    "lon" : -86.743200000000002,
+    "id" : 52,
+    "name" : "New Buffalo Beach"
+  },
+  {
+    "name" : "St. Joseph Beach",
+    "id" : 53,
+    "lat" : 42.1098,
+    "lon" : -86.4876
+  },
+  {
+    "name" : "Lake Erie Metropark Beach",
+    "id" : 54,
+    "lat" : 42.087600000000002,
+    "lon" : -83.198700000000002
+  }
+]
