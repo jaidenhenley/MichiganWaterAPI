@@ -85,12 +85,13 @@ def get_water_quality(beach_id: int) -> Optional[WaterQuality]:
         status = "unsafe"
     
     return WaterQuality(
-        lastReading=latest["ActivityStartDate"].strftime("%Y-%m-%d"),
-        value=round(value, 1),
-        unit=str(latest.get("ResultMeasure/MeasureUnitCode") or "MPN/100mL"),
-        status=status,
-        source="EGLE BeachGuard via EPA Water Quality Portal",
-    )
+    contaminant="Escherichia coli",
+    lastReading=latest["ActivityStartDate"].strftime("%Y-%m-%d"),
+    value=round(value, 1),
+    unit=str(latest.get("ResultMeasure/MeasureUnitCode") or "MPN/100mL"),
+    status=status,
+    source="EGLE BeachGuard via EPA Water Quality Portal",
+)
 
 
 def get_water_quality_safe(beach_id: int) -> Optional[WaterQuality]:

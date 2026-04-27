@@ -12,23 +12,31 @@ with open("app/coastcast_beach.json") as f:
 STREAM_KEYWORDS = [
     "drain", "creek", "river", "ditch", "outfall", "tributary",
     "downstream", "upstream", "trib", "brook", " us ", " ds ", "d/s", "u/s",
-    "rnge", "rng", "mile road", "at townline", "at mound", " dr.", " dr ", "drain ", "near sawyer", "near mears",
-"oceana ", "alger ", "pas",
+    "rnge", "rng", "mile road", "at townline", "at mound", " dr.", " dr ",
+    "drain ", "near sawyer", "near mears", "oceana ", "alger ", "pas",
 ]
+
+CONTAMINANTS = [
+    "Escherichia coli",
+]
+
 
 def filter_out_stream_sites(stations: pd.DataFrame) -> pd.DataFrame:
     name_lower = stations["MonitoringLocationName"].fillna("").str.lower()
     is_stream = name_lower.apply(lambda name: any(kw in name for kw in STREAM_KEYWORDS))
     return stations[~is_stream]
 
-def fetch_michigan_ecoli(days_back: int = 30) -> pd.DataFrame:
+
+def fetch_michigan_contaminants(contaminants: list, days_back: int = 30) -> pd.DataFrame:
     end = datetime.now().strftime("%m-%d-%Y")
     start = (datetime.now() - timedelta(days=days_back)).strftime("%m-%d-%Y")
+    char_params = "&".join([f"characteristicName={c.replace(' ', '%20')}" for c in contaminants])
+
 
     url = (
-         "https://www.waterqualitydata.us/data/Result/search"
+        "https://www.waterqualitydata.us/data/Result/search"
         f"?statecode=US:26"
-        f"&characteristicName=Escherichia%20coli"
+        f"&{char_params}"
         f"&startDateLo={start}"
         f"&startDateHi={end}"
         f"&mimeType=csv"
@@ -41,22 +49,26 @@ def fetch_michigan_ecoli(days_back: int = 30) -> pd.DataFrame:
         csv_filename = z.namelist()[0]
         with z.open(csv_filename) as f:
             df = pd.read_csv(f, low_memory=False)
-    
+
     keep = [
         "OrganizationIdentifier",
         "OrganizationFormalName",
         "ActivityStartDate",
         "MonitoringLocationIdentifier",
+        "CharacteristicName",
         "ResultMeasureValue",
         "ResultMeasure/MeasureUnitCode",
     ]
     return df[[c for c in keep if c in df.columns]]
 
-def fetch_michigan_stations() -> pd.DataFrame:
+
+def fetch_michigan_stations(contaminants: list) -> pd.DataFrame:
+    char_params = "&".join([f"characteristicName={c.replace(' ', '%20')}" for c in contaminants])
+
     url = (
         "https://www.waterqualitydata.us/data/Station/search"
-        "?statecode=US:26"
-        "&characteristicName=Escherichia%20coli"
+        f"?statecode=US:26"
+        f"&{char_params}"
         "&mimeType=csv"
         "&zip=yes"
     )
@@ -67,15 +79,15 @@ def fetch_michigan_stations() -> pd.DataFrame:
         csv_filename = z.namelist()[0]
         with z.open(csv_filename) as f:
             df = pd.read_csv(f, low_memory=False)
-    
+
     keep = [
         "MonitoringLocationIdentifier",
         "MonitoringLocationName",
         "LatitudeMeasure",
         "LongitudeMeasure",
     ]
+    return df[[c for c in keep if c in df.columns]].drop_duplicates()
 
-    return df[[c for c in keep if c in df.columns]]
 
 def haversine_miles(lat1, lon1, lat2, lon2):
     R = 3958.8
@@ -114,28 +126,37 @@ def match_beaches_to_stations(beaches, stations: pd.DataFrame, max_miles: float 
 
 
 if __name__ == "__main__":
-    print(f"Loaded {len(COASTCAST_SAMPLE)} beaches from JSON")
-    
-    stations = fetch_michigan_stations()
+    print("Fetching contaminant data...")
+    results = fetch_michigan_contaminants(CONTAMINANTS, days_back=365)
+
+    print("Fetching stations...")
+    stations = fetch_michigan_stations(CONTAMINANTS)
     stations = filter_out_stream_sites(stations)
-    print(f"Stations after stream filter: {len(stations)}")
 
+    print("Matching beaches to stations...")
     matches = match_beaches_to_stations(COASTCAST_SAMPLE, stations, max_miles=1.0)
-    matched_count = sum(1 for m in matches if m["matched"])
-    
-    print(f"Matched {matched_count}/{len(matches)} beaches\n")
 
-    # Map BeachID to StationID
-    beach_to_station = {
-        m["beach_id"]: m["station_id"]
-        for m in matches if m["matched"]
-    }
+    beach_contaminant_map = {}
+    for match in matches:
+        if not match["matched"]:
+            continue
+        beach_id = match["beach_id"]
+        station_id = match["station_id"]
 
-    import os
-    output_path = "app/data/beach_station_map.json"
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        station_rows = results[
+            results["MonitoringLocationIdentifier"] == station_id
+        ]
 
-    with open(output_path, "w") as f:
-        json.dump(beach_to_station, f, indent=2)
+        latest = (
+            station_rows.sort_values("ActivityStartDate", ascending=False)
+            .groupby("CharacteristicName")
+            .first()
+            .reset_index()
+        )
 
-    print(f"Wrote {len(beach_to_station)} mappings to {output_path}")
+        beach_contaminant_map[beach_id] = latest.to_dict(orient="records")
+
+    with open("app/data/beach_contaminant_map.json", "w") as f:
+        json.dump(beach_contaminant_map, f, indent=2, default=str)
+
+    print(f"Done. {len(beach_contaminant_map)} beaches mapped.")

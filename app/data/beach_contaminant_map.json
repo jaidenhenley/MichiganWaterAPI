@@ -1,0 +1,270 @@
+{
+  "1": [],
+  "2": [
+    {
+      "CharacteristicName": "Escherichia coli",
+      "OrganizationIdentifier": "21MICH_WQX",
+      "OrganizationFormalName": "Michigan DEQ",
+      "ActivityStartDate": "2025-09-16",
+      "MonitoringLocationIdentifier": "21MICH_WQX-700585",
+      "ResultMeasureValue": "1.0000",
+      "ResultMeasure/MeasureUnitCode": "cfu/100mL"
+    }
+  ],
+  "3": [],
+  "4": [],
+  "5": [
+    {
+      "CharacteristicName": "Escherichia coli",
+      "OrganizationIdentifier": "21MICH_WQX",
+      "OrganizationFormalName": "Michigan DEQ",
+      "ActivityStartDate": "2025-08-19",
+      "MonitoringLocationIdentifier": "21MICH_WQX-350183",
+      "ResultMeasureValue": "1.0000",
+      "ResultMeasure/MeasureUnitCode": "cfu/100mL"
+    }
+  ],
+  "6": [
+    {
+      "CharacteristicName": "Escherichia coli",
+      "OrganizationIdentifier": "21MICH_WQX",
+      "OrganizationFormalName": "Michigan DEQ",
+      "ActivityStartDate": "2025-09-16",
+      "MonitoringLocationIdentifier": "21MICH_WQX-700587",
+      "ResultMeasureValue": "13.1905",
+      "ResultMeasure/MeasureUnitCode": "cfu/100mL"
+    }
+  ],
+  "8": [
+    {
+      "CharacteristicName": "Escherichia coli",
+      "OrganizationIdentifier": "21MICH_WQX",
+      "OrganizationFormalName": "Michigan DEQ",
+      "ActivityStartDate": "2025-08-05",
+      "MonitoringLocationIdentifier": "21MICH_WQX-610552",
+      "ResultMeasureValue": "21.0000",
+      "ResultMeasure/MeasureUnitCode": "cfu/100mL"
+    }
+  ],
+  "9": [
+    {
+      "CharacteristicName": "Escherichia coli",
+      "OrganizationIdentifier": "21MICH_WQX",
+      "OrganizationFormalName": "Michigan DEQ",
+      "ActivityStartDate": "2025-09-02",
+      "MonitoringLocationIdentifier": "21MICH_WQX-110702",
+      "ResultMeasureValue": "5.0000",
+      "ResultMeasure/MeasureUnitCode": "cfu/100mL"
+    }
+  ],
+  "10": [
+    {
+      "CharacteristicName": "Escherichia coli",
+      "OrganizationIdentifier": "21MICH_WQX",
+      "OrganizationFormalName": "Michigan DEQ",
+      "ActivityStartDate": "2025-08-26",
+      "MonitoringLocationIdentifier": "21MICH_WQX-240155",
+      "ResultMeasureValue": "3.1000",
+      "ResultMeasure/MeasureUnitCode": "cfu/100mL"
+    }
+  ],
+  "13": [
+    {
+      "CharacteristicName": "Escherichia coli",
+      "OrganizationIdentifier": "21MICH_WQX",
+      "OrganizationFormalName": "Michigan DEQ",
+      "ActivityStartDate": "2025-08-05",
+      "MonitoringLocationIdentifier": "21MICH_WQX-010079",
+      "ResultMeasureValue": "31.5000",
+      "ResultMeasure/MeasureUnitCode": "cfu/100mL"
+    }
+  ],
+  "14": [
+    {
+      "CharacteristicName": "Escherichia coli",
+      "OrganizationIdentifier": "21MICH_WQX",
+      "OrganizationFormalName": "Michigan DEQ",
+      "ActivityStartDate": "2025-08-26",
+      "MonitoringLocationIdentifier": "21MICH_WQX-580457",
+      "ResultMeasureValue": "1.0000",
+      "ResultMeasure/MeasureUnitCode": "cfu/100mL"
+    }
+  ],
+  "15": [
+    {
+      "CharacteristicName": "Escherichia coli",
+      "OrganizationIdentifier": "21MICH_WQX",
+      "OrganizationFormalName": "Michigan DEQ",
+      "ActivityStartDate": "2025-08-04",
+      "MonitoringLocationIdentifier": "21MICH_WQX-610557",
+      "ResultMeasureValue": "25.0000",
+      "ResultMeasure/MeasureUnitCode": "cfu/100mL"
+    }
+  ],
+  "16": [
+    {
+      "CharacteristicName": "Escherichia coli",
+      "OrganizationIdentifier": "21MICH_WQX",
+      "OrganizationFormalName": "Michigan DEQ",
+      "ActivityStartDate": "2025-08-28",
+      "MonitoringLocationIdentifier": "21MICH_WQX-030658",
+      "ResultMeasureValue": "13.4000",
+      "ResultMeasure/MeasureUnitCode": "cfu/100mL"
+    }
+  ],
+  "17": [
+    {
+      "CharacteristicName": "Escherichia coli",
+      "OrganizationIdentifier": "21MICH_WQX",
+      "OrganizationFormalName": "Michigan DEQ",
+      "ActivityStartDate": "2025-09-08",
+      "MonitoringLocationIdentifier": "21MICH_WQX-800515",
+      "ResultMeasureValue": "1.0000",
+      "ResultMeasure/MeasureUnitCode": "cfu/100mL"
+    }
+  ],
+  "18": [
+    {
+      "CharacteristicName": "Escherichia coli",
+      "OrganizationIdentifier": "21MICH_WQX",
+      "OrganizationFormalName": "Michigan DEQ",
+      "ActivityStartDate": "2025-08-27",
+      "MonitoringLocationIdentifier": "21MICH_WQX-320261",
+      "ResultMeasureValue": "16.8000",
+      "ResultMeasure/MeasureUnitCode": "cfu/100mL"
+    }
+  ],
+  "19": [
+    {
+      "CharacteristicName": "Escherichia coli",
+      "OrganizationIdentifier": "21MICH_WQX",
+      "OrganizationFormalName": "Michigan DEQ",
+      "ActivityStartDate": "2025-08-27",
+      "MonitoringLocationIdentifier": "21MICH_WQX-320260",
+      "ResultMeasureValue": "1.0000",
+      "ResultMeasure/MeasureUnitCode": "cfu/100mL"
+    }
+  ],
+  "20": [
+    {
+      "CharacteristicName": "Escherichia coli",
+      "OrganizationIdentifier": "21MICH_WQX",
+      "OrganizationFormalName": "Michigan DEQ",
+      "ActivityStartDate": "2025-08-28",
+      "MonitoringLocationIdentifier": "21MICH_WQX-310424",
+      "ResultMeasureValue": "0.7700",
+      "ResultMeasure/MeasureUnitCode": "cfu/100mL"
+    }
+  ],
+  "22": [],
+  "24": [
+    {
+      "CharacteristicName": "Escherichia coli",
+      "OrganizationIdentifier": "21MICH_WQX",
+      "OrganizationFormalName": "Michigan DEQ",
+      "ActivityStartDate": "2025-08-25",
+      "MonitoringLocationIdentifier": "21MICH_WQX-320256",
+      "ResultMeasureValue": "71.2000",
+      "ResultMeasure/MeasureUnitCode": "cfu/100mL"
+    }
+  ],
+  "25": [],
+  "26": [],
+  "27": [
+    {
+      "CharacteristicName": "Escherichia coli",
+      "OrganizationIdentifier": "21MICH_WQX",
+      "OrganizationFormalName": "Michigan DEQ",
+      "ActivityStartDate": "2025-08-27",
+      "MonitoringLocationIdentifier": "21MICH_WQX-030611",
+      "ResultMeasureValue": "3.1000",
+      "ResultMeasure/MeasureUnitCode": "cfu/100mL"
+    }
+  ],
+  "28": [
+    {
+      "CharacteristicName": "Escherichia coli",
+      "OrganizationIdentifier": "21MICH_WQX",
+      "OrganizationFormalName": "Michigan DEQ",
+      "ActivityStartDate": "2025-09-16",
+      "MonitoringLocationIdentifier": "21MICH_WQX-700587",
+      "ResultMeasureValue": "13.1905",
+      "ResultMeasure/MeasureUnitCode": "cfu/100mL"
+    }
+  ],
+  "29": [
+    {
+      "CharacteristicName": "Escherichia coli",
+      "OrganizationIdentifier": "21MICH_WQX",
+      "OrganizationFormalName": "Michigan DEQ",
+      "ActivityStartDate": "2025-08-04",
+      "MonitoringLocationIdentifier": "21MICH_WQX-610557",
+      "ResultMeasureValue": "25.0000",
+      "ResultMeasure/MeasureUnitCode": "cfu/100mL"
+    }
+  ],
+  "30": [
+    {
+      "CharacteristicName": "Escherichia coli",
+      "OrganizationIdentifier": "21MICH_WQX",
+      "OrganizationFormalName": "Michigan DEQ",
+      "ActivityStartDate": "2025-09-04",
+      "MonitoringLocationIdentifier": "21MICH_WQX-700584",
+      "ResultMeasureValue": "9.0000",
+      "ResultMeasure/MeasureUnitCode": "cfu/100mL"
+    }
+  ],
+  "32": [],
+  "33": [
+    {
+      "CharacteristicName": "Escherichia coli",
+      "OrganizationIdentifier": "21MICH_WQX",
+      "OrganizationFormalName": "Michigan DEQ",
+      "ActivityStartDate": "2025-09-03",
+      "MonitoringLocationIdentifier": "21MICH_WQX-760201",
+      "ResultMeasureValue": "4.0000",
+      "ResultMeasure/MeasureUnitCode": "cfu/100mL"
+    }
+  ],
+  "34": [],
+  "35": [],
+  "38": [],
+  "41": [
+    {
+      "CharacteristicName": "Escherichia coli",
+      "OrganizationIdentifier": "21MICH_WQX",
+      "OrganizationFormalName": "Michigan DEQ",
+      "ActivityStartDate": "2025-08-26",
+      "MonitoringLocationIdentifier": "21MICH_WQX-160195",
+      "ResultMeasureValue": "2.0000",
+      "ResultMeasure/MeasureUnitCode": "cfu/100mL"
+    }
+  ],
+  "45": [],
+  "47": [],
+  "49": [
+    {
+      "CharacteristicName": "Escherichia coli",
+      "OrganizationIdentifier": "21MICH_WQX",
+      "OrganizationFormalName": "Michigan DEQ",
+      "ActivityStartDate": "2025-08-27",
+      "MonitoringLocationIdentifier": "21MICH_WQX-510216",
+      "ResultMeasureValue": "5.2000",
+      "ResultMeasure/MeasureUnitCode": "cfu/100mL"
+    }
+  ],
+  "50": [
+    {
+      "CharacteristicName": "Escherichia coli",
+      "OrganizationIdentifier": "21MICH_WQX",
+      "OrganizationFormalName": "Michigan DEQ",
+      "ActivityStartDate": "2025-08-26",
+      "MonitoringLocationIdentifier": "21MICH_WQX-640245",
+      "ResultMeasureValue": "2.0000",
+      "ResultMeasure/MeasureUnitCode": "cfu/100mL"
+    }
+  ],
+  "52": [],
+  "53": [],
+  "54": []
+}

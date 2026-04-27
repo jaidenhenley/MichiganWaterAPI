@@ -39,14 +39,6 @@ class WaterConditions(BaseModel):
     wind_direction: Optional[str] = None
     timestamp: Optional[datetime] = None
 
-
-class Traffic(BaseModel):
-    currentSpeed: int
-    freeFlowSpeed: int
-    currentTravelTime: int
-    freeFlowTravelTime: int
-    confidence: float
-    roadClosures: bool
     
     
 class NPSVisitation(BaseModel):
@@ -58,16 +50,26 @@ class NPSVisitation(BaseModel):
     crowd_weight: float  # 0.0–1.0, normalized against peak month
 
 class WaterQuality(BaseModel):
+    contaminant: str
     lastReading: str
     value: float
     unit: str
     status: str
     source: str
+    
+class BeachAlert(BaseModel):
+    event: str
+    headline: str
+    severity: str
+    urgency: str
+    effective: str
+    expires: str
 
 class BeachModelResponse(BaseModel):
     beach: str
+    lake: str
     buoyData: Optional[WaterConditions] = None
-    alerts: List = []
-    traffic: List[Traffic] = []
+    alerts: List[BeachAlert] = []
     holiday: bool = False
-    waterQuality: Optional[WaterQuality] = None
+    waterQuality: List[WaterQuality] = []
+
