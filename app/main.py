@@ -51,17 +51,6 @@ async def get_beach(beach_id: int) -> BeachModelResponse:
     buoy = buoy_result if not isinstance(buoy_result, Exception) else None
     alerts = alerts_result if not isinstance(alerts_result, Exception) else []
 
-     # DEBUG: remove before shipping
-    alerts = [BeachAlert(
-        event="Beach Hazards Statement",
-        headline="Dangerous swim conditions expected",
-        severity="Severe",
-        urgency="Expected",
-        effective="2026-04-29T00:00:00Z",
-        expires="2026-04-30T00:00:00Z"
-    )]
-
-
     water_quality = get_water_quality_safe(beach_id)
 
     return BeachModelResponse(
