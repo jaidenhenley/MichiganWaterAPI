@@ -1,5 +1,15 @@
 {
-  "1": [],
+  "1": [
+    {
+      "CharacteristicName": "Escherichia coli",
+      "OrganizationIdentifier": "21MICH_WQX",
+      "OrganizationFormalName": "Michigan DEQ",
+      "ActivityStartDate": "2025-09-16",
+      "MonitoringLocationIdentifier": "21MICH_WQX-821490",
+      "ResultMeasureValue": "125.0000",
+      "ResultMeasure/MeasureUnitCode": "cfu/100mL"
+    }
+  ],
   "2": [
     {
       "CharacteristicName": "Escherichia coli",
